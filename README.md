@@ -1,5 +1,4 @@
 # Enormous Fail
 Can be found at https://enormous.fail
 
----
-***.enormous.fail is not managed by me.**
+###### *Please note that *.enormous.fail is not managed by me.*
