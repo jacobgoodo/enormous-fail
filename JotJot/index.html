@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,22 +20,35 @@
 			body {
         		background: white;
 				font-family: 'Roboto', sans-serif;
+                text-align: center;
 			}
     			section {
+                	margin: 0 auto;
+					max-width: 1000px;
+					width: 100%;
+					padding: 1rem 2rem;
             		font-size: 800%;
-        			padding: 1em;
-        			//position: absolute;
-        			//top: 30%;
-       		 		//left: 25%;
-        			//margin-right: -50%;
-        			transform: translate(-50%, -50%);
+        			position: center;
+                    font-weight: 900;
 			}
+            
+            	paragraph {
+               	 	margin: 0 auto;
+					max-width: 1000px;
+					width: 100%;
+					padding: 1rem 2rem;
+            		font-size: 120%;
+                    font-weight: 400;
+                    animation-delay: 0.8s;
+            }
+            
 		</style>
 	</head>
 	
 	<body>
 		<br><br><br><br>
-		<section class="animate__animated animate__fadeInDown"><center>JotJot</center></section>
+		<section class="animate__animated animate__fadeInDown">JotJot</section><br><br>
+        <paragraph class="animate__animated animate__fadeIn">Combining Notes, Reminders, and Lists with a simple concept.</paragraph>
 	</body>
 	
 </html>
