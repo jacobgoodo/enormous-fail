@@ -20,20 +20,20 @@
 
 a:link {
   text-decoration: none;
-  color: #ff69bd;
+  color: #f5a142;
 }
 
 a:visited {
   text-decoration: none;
-  color: #ff69bd;
+  color: #f5a142;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #f5a142;
+  color: #ff69bd;
 }
 
 a:active {
   text-decoration: underline;
-  color: #f5a142;
+  color: #ff69bd;
 }
