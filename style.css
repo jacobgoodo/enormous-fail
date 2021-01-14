@@ -17,14 +17,14 @@
     box-sizing: border-box;
 	}
 
-/* Link colours are cool! 😎 */
+/* Link colours are cool! 😎 Let's go grey for light theme */
 a:link, a:visited {
   text-decoration: none;
-  color: #f5a142;
+  color: #696969;
 }
 
-/* Active links ✨ */
-a:hover a:active {
+/* Active links ✨ pink! */
+a:hover, a:active {
   text-decoration: underline;
   color: #ff69bd;
 }
@@ -35,3 +35,9 @@ a:hover a:active {
     background-color: #2c2c2c;
     color: #ffffff;
   }
+
+ 	/* Dark theme gets some orange link flavour 🧡 */
+a:link, a:visited {
+  text-decoration: none;
+  color: #f5a142;
+}
