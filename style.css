@@ -19,7 +19,7 @@
 
 /* Link colours are cool! 😎 Let's go grey for light theme */
 a:link, a:visited {
-  text-decoration: none;
+  text-decoration: bold;
   color: #696969;
 }
 
