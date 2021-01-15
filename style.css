@@ -41,4 +41,9 @@ a:hover, a:active {
  	text-decoration: none;
   	color: #f5a142;
 	}
+	/* Active links ✨ pink! */
+  a:hover, a:active {
+  	text-decoration: underline;
+ 	color: #ff69bd;
+	}
 }
